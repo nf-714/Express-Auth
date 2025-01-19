@@ -9,11 +9,11 @@ type ConfigValues = {
   appOrigin: string | undefined;
   jwt: {
     secret: string | undefined;
-    expiresIn: string | undefined;
+    expiresIn: string | Date | undefined;
   };
   jwtRefresh: {
     secret: string | undefined;
-    expiresIn: string | undefined;
+    expiresIn: string | number | Date | undefined;
   };
   email: {
     server: string | undefined;

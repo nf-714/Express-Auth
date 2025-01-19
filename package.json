@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@prisma/client": "^6.2.1",
+    "@types/nodemailer": "^6.4.17",
     "bcrypt": "^5.1.1",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",

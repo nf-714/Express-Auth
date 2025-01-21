@@ -1,4 +1,4 @@
-import { IUser } from "../../types/type";
+import { IUser } from "../../../types/type";
 
 interface IAuthEmail {
   signup: (user: IUser) => void;
@@ -27,3 +27,5 @@ class AuthenticationWithEmailController implements IAuthEmail {
 }
 
 export const authEmailController = new AuthenticationWithEmailController();
+
+export const signup = authEmailController.signup;
